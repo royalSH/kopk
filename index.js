@@ -89,6 +89,19 @@ bot.on('message', msg => {
   if (msg.content === 'salut') {
     msg.channel.send('salut si tie :)')
   }
+    if(msg.content.startsWith("<@337854135976198144>")) {
+    msg.channel.send('Monstrul Dix isi va face aparitia imediat')
+    let dix1 = new Discord.RichEmbed()
+    .setImage("https://media.giphy.com/media/kHsoCp0XGwQec/giphy.gif")
+    msg.channel.send(dix1)
+    msg.channel.send('Trebuie sa fug de aici !!!')
+    let dix2 = new Discord.RichEmbed()
+    .setImage("https://media.giphy.com/media/f4V2mqvv0wT9m/giphy.gif")
+    msg.channel.send(dix2)
+  }
+  if(msg.content.startsWith("<@456405756405743627>")) {
+    msg.channel.send('da, ce este?')
+  }
 });
 
 bot.on("message", async message => {

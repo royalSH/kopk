@@ -98,7 +98,7 @@ bot.on('message', msg => {
     if(msg.content.startsWith("<@291270997049344001>")) {
     msg.channel.send('Crezi ca ai fata sa o mentionezi pe Simona?')
     let sim1 = new Discord.RichEmbed()
-    .setImage("https://i.imgur.com/2ThlbUH.gif")
+    .setImage("https://media.giphy.com/media/l0HUhLksQED2GxsTC/giphy.gif")
     msg.channel.send(sim1)
   }
 });

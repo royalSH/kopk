@@ -79,10 +79,6 @@ bot.on('message', msg => {
   if (msg.content === 'vreau admin') {
     msg.channel.send('da o muie nu vrei tu?')
   }
-  if (msg.content === '<@337854135976198144>') {
-    msg.channel.send('nu-l mai striga ca oricum nu vine..')
-    msg.channel.send('asta inseamna sa fi developer :grimacing:')
-  }
   if (msg.content === 'pai') {
     msg.channel.send('niciun pai!! :rage:');
   }
@@ -99,8 +95,11 @@ bot.on('message', msg => {
     .setImage("https://media.giphy.com/media/f4V2mqvv0wT9m/giphy.gif")
     msg.channel.send(dix2)
   }
-  if(msg.content.startsWith("<@456405756405743627>")) {
-    msg.channel.send('da, ce este?')
+    if(msg.content.startsWith("<@291270997049344001>")) {
+    msg.channel.send('Crezi ca ai fata sa o mentionezi pe Simona?')
+    let sim1 = new Discord.RichEmbed()
+    .setImage("https://i.imgur.com/2ThlbUH.gif")
+    msg.channel.send(sim1)
   }
 });
 

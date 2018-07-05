@@ -101,6 +101,14 @@ bot.on('message', msg => {
     .setImage("https://media.giphy.com/media/l0HUhLksQED2GxsTC/giphy.gif")
     msg.channel.send(sim1)
   }
+    if(msg.content.startsWith("ce faci fa?")) {
+    let reply = ['ce te intereseaza pe tine?', 'Nu vreau sa-ti raspund, pacat ca sunt programata sa o fac...', 'ai inebunit.. incepi sa vorbesti cu robotii dupa discord..', 'bine, tu?', 'Bine ca sa nu fac rau..', 'Vorbesti ca un taran ploat, te rog da-i leave server...']
+    let random = Math.floor((Math.random() * reply.length));
+    msg.channel.send(reply[random])
+  }
+  if(msg.content.startsWith("samp")) {
+    msg.channel.send("pe nephrite joci, nu?")
+  }
 });
 
 bot.on("message", async message => {

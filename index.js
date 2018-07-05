@@ -109,6 +109,10 @@ bot.on('message', msg => {
   if(msg.content.startsWith("samp")) {
     msg.channel.send("pe nephrite joci, nu?")
   }
+  if(msg.content.startsWith("saluta fa!")) {
+    if (msg.author.id !== '291270997049344001')
+    msg.channel.send("s-s-s-salut :cry: :sleepy: :triumph:")
+  }
 });
 
 bot.on("message", async message => {

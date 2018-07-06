@@ -26,7 +26,7 @@ fs.readdir("./commands/", (err, files) => {
 bot.on("ready", async () => {
   console.log(`${bot.user.username} is online on ${bot.guilds.size} servers!`);
 
-  bot.user.setActivity("Super Mario", {type: "PLAYING"});
+  bot.user.setActivity("SAMP", {type: "PLAYING"});
 
   //bot.user.setGame("on SourceCade!");
 });
@@ -42,21 +42,6 @@ bot.on('message', msg => {
   if (msg.content === 'hinami este proasta') {
     msg.channel.send('Proasta ii ma-ta aia ca da mancare unui dobitoc.');
     msg.channel.send('Numai zic de cretin ca asta stie deja..')
-  }
-  if (msg.content === 'sugi pula') {
-    msg.channel.send('Nu vreau sa-ti fur slujba..');
-    msg.channel.send('Cand am vazut ca te descurci asa bine..')
-    msg.channel.send('Mi-a fost mila sa te intrerup :-(')
-  }
-  if (msg.content === 'hina rules') {
-    msg.channel.send('Bun.. incepem cu ce-i usor..');
-    msg.channel.send('Injuraturile nu-s permise..')
-    msg.channel.send('Trebuie sa respecti fiecare channel/categorie dupa server.')
-    msg.channel.send('comenzile mele sunt facute pe cat posibil sa fie simple.')
-    msg.channel.send('fiecare update va fi instiintat pe serverul oficial.')
-    msg.channel.send('in fiecare saptamana se schimba playing stats in functie de castigator, mai multe pe serverul oficial Hinami. [/invitelink]')
-    msg.channel.send('sunt programata sa fiu mai mult folositoare pe partea administrativa.')
-    msg.channel.send('**Am incheiat :D**')
   }
   if (msg.content === 'hina') {
     msg.channel.send('nu-ti raspund.');
@@ -77,7 +62,7 @@ bot.on('message', msg => {
     msg.channel.send('si eu te iubesc :kissing_heart:')
   }
   if (msg.content === 'vreau admin') {
-    msg.channel.send('da o muie nu vrei tu?')
+    msg.channel.send('e bine sa vrei..')
   }
   if (msg.content === 'pai') {
     msg.channel.send('niciun pai!! :rage:');
@@ -102,7 +87,7 @@ bot.on('message', msg => {
     msg.channel.send(sim1)
   }
     if(msg.content.startsWith("ce faci fa?")) {
-    let reply = ['ce te intereseaza pe tine?', 'Nu vreau sa-ti raspund, pacat ca sunt programata sa o fac...', 'ai inebunit.. incepi sa vorbesti cu robotii dupa discord..', 'bine, tu?', 'Bine ca sa nu fac rau..', 'Vorbesti ca un taran plouat, te rog da-i leave server...']
+    let reply = ['ce te intereseaza pe tine?', 'Nu vreau sa-ti raspund, pacat ca sunt programata sa o fac...', 'ai inebunit.. incepi sa vorbesti cu robotii dupa discord..', 'bine, tu?', 'Bine ca sa nu fac rau..', 'Vorbesti ca un taran plouat, te rog da-i leave server...', 'ma joc samp pe jade, tu?']
     let random = Math.floor((Math.random() * reply.length));
     msg.channel.send(reply[random])
   }

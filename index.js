@@ -95,7 +95,7 @@ bot.on('message', msg => {
     msg.channel.send("pe nephrite joci, nu?")
   }
   if(msg.content.startsWith("saluta fa!")) {
-    if (message.author.id !== '291270997049344001') return message.reply("Nu raspund anonimilor..");
+    if (msg.author.id !== '337854135976198144') return msg.reply("Nu raspund anonimilor..");
     msg.channel.send("s-s-s-salut :cry: :sleepy: :triumph:")
   }
 });

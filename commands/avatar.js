@@ -10,7 +10,7 @@ exports.run = (client, message, args) => {
         let embed = new Discord.RichEmbed()
             .setAuthor(`${user.username}#${user.discriminator}`) 
             .setColor("RANDOM") 
-			 .setFooter(`Hinami | Avatar Command  v1.2 |`, bot.user.displayAvatarURL)
+	    .setFooter(`Hinami | Avatar Command  v1.2 |`, bot.user.displayAvatarURL)
             .setImage(image) 
         message.channel.send(embed); 
     }

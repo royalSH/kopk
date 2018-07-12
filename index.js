@@ -32,43 +32,16 @@ bot.on("ready", async () => {
 });
 
 bot.on('message', msg => {
-  if (msg.content === 'hina?') {
-    msg.channel.send('da?');
-  }
-
-  if (msg.content === 'hinami?') {
-    msg.channel.send('da?');
-  }
-  if (msg.content === 'hinami este proasta') {
-    msg.channel.send('Proasta ii ma-ta aia ca da mancare unui dobitoc.');
-    msg.channel.send('Numai zic de cretin ca asta stie deja..')
-  }
-  if (msg.content === 'hina') {
-    msg.channel.send('nu-ti raspund.');
-  }
-  if (msg.content === 'hina ma iubesti?') {
-    msg.channel.send('Da Onii-Chan :*');
-  }
-  if (msg.content === 'cf hina?') {
-    msg.channel.send('Bine... tu?')
+    if (msg.content === "hina" || msg.content === "hinami" || msg.content === "hina?" || msg.content === "hinami?") {
+    let reply = ['da?', 'Normal nu ti-as raspunde... dar sunt programata s-o fac..', 'ai inebunit.. incepi sa vorbesti cu roboti :|', 'da, ce este?']
+    let random = Math.floor((Math.random() * reply.length));
+    msg.channel.send(reply[random])
   }
   if (msg.content === 'tigani') {
     msg.channel.send('Pe rug cu iei ca in Game Of Thrones!!!!')
   }
-  if (msg.content === 'ce faci hina?') {
-    msg.channel.send('dau muie la curiosi :kissing_heart:')
-  }
-  if (msg.content === 'te iubesc hina') {
-    msg.channel.send('si eu te iubesc :kissing_heart:')
-  }
-  if (msg.content === 'vreau admin') {
-    msg.channel.send('e bine sa vrei..')
-  }
   if (msg.content === 'pai') {
     msg.channel.send('niciun pai!! :rage:');
-  }
-  if (msg.content === 'salut') {
-    msg.channel.send('salut si tie :)')
   }
     if(msg.content.startsWith("<@337854135976198144>")) {
     msg.channel.send('Monstrul Dix isi va face aparitia imediat')

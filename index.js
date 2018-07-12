@@ -71,6 +71,16 @@ bot.on('message', msg => {
     if (msg.author.id !== '337854135976198144') return msg.channel.send("Nu raspund anonimilor..");
     msg.channel.send("s-s-s-salut :cry: :sleepy: :triumph:")
   }
+     if(msg.content.startsWith("<@302489039301246976>")) {
+    msg.channel.send('Lupul TheLopata isi va face aparitia imediat.. ai grija ca-ti mananca toate oile..')
+    let lupu1 = new Discord.RichEmbed()
+    .setImage("http://www.cunoastelumea.ro/wp-content/uploads/2015/11/lup-1-620x264.jpg")
+    msg.channel.send(lupu1)
+    msg.channel.send('Nu trebuia sa-l mentionezi.. acum mi-a furat toate oile si probabil ca le infuleca pe undeva..')
+    let lupu2 = new Discord.RichEmbed()
+    .setImage("https://3.bp.blogspot.com/-8INJkDz5tIo/V-bI-cPcOeI/AAAAAAAAFoI/fEBVt4_VAn4YfJVQuk_Howg4vdJlfgyvACLcB/w1200-h630-p-k-no-nu/lup-in-blana-de-oaie.jpg")
+    msg.channel.send(lupu2)
+  }
 });
 
 bot.on("message", async message => {

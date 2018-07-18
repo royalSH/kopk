@@ -18,7 +18,7 @@ module.exports.run = async(bot, message, args) => {
     "http://ahegao.online/wp-content/uploads/2016/07/tumblr_oa8deoSDmz1vzttmyo1_500.gif"
   ]
   let r = Math.floor((Math.random() * hi.length));
-    if (!message.channel.nsfw) return message.channel.send("**:interrobang: | Comanda poate fi executata doar intr-un channel NSFW**");
+    if (!message.channel.nsfw) return message.channel.send("**:exclamation: | Comanda poate fi executata doar intr-un channel NSFW**");
 
     let hentaiEmbed = new Discord.RichEmbed()
     .setColor("RANDOM")

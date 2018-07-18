@@ -114,6 +114,12 @@ bot.on('message', msg => {
 
     msg.channel.send(donate)
   }
+    if(msg.content.startsWith("heil")) {
+    let hh = new Discord.RichEmbed()
+    .setImage("https://images-ext-1.discordapp.net/external/ouGRYxdIh_dt043I_V5tuybbrCyXaHR9UGJvFZRg2ko/http/img.biaoqing.com/work/20171025/0013370170.gif")
+
+    msg.channel.send(hh)
+  }
 });
 
 bot.on("message", async message => {

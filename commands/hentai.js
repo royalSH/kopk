@@ -15,7 +15,8 @@ module.exports.run = async(bot, message, args) => {
     "https://78.media.tumblr.com/8a641a035960bcd73d68d47476e468f4/tumblr_mw06kcu11Q1sg6uevo1_500.gif",
     "http://66.media.tumblr.com/8e18b872a17e2aa7807c57c1fdf32b43/tumblr_nm1nl5TY1w1tv5c1wo1_400.gif",
     "http://78.media.tumblr.com/116aacf36b211b12cf5856b9e21b96cb/tumblr_mi7zb9hHZ41rm0ncgo1_1280.gif",
-    "http://ahegao.online/wp-content/uploads/2016/07/tumblr_oa8deoSDmz1vzttmyo1_500.gif"
+    "http://ahegao.online/wp-content/uploads/2016/07/tumblr_oa8deoSDmz1vzttmyo1_500.gif",
+    "https://images-ext-1.discordapp.net/external/K5YB_czOgV6TQ3_G5QEKqYlkeR9vMjChqRL3KuyBR-Q/http/67.media.tumblr.com/45e7984ad999a1158377bec7c7236aeb/tumblr_nm1nl5TY1w1tv5c1wo3_1280.gif"
   ]
   let r = Math.floor((Math.random() * hi.length));
     if (!message.channel.nsfw) return message.channel.send("**:exclamation: | Comanda poate fi executata doar intr-un channel NSFW**");

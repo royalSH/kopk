@@ -28,6 +28,7 @@ exports.run = async (bot, message, args) => {
  18.!serverinfo - iti arata informatii despre server!
  19.!kill <membru> - BETA!
  20.!rape <membru> - BETA!
+ 21.!slot - joci la pacanele!
   `)
   .addField("Developer", interviu)
   .setFooter("Hinami | Commands | paypal.me/hinamisrl", bot.user.displayAvatarURL)

@@ -27,7 +27,7 @@ exports.run = async (bot, message, args) => {
  17.!oppai - o comanda NSWF 
  18.!serverinfo - iti arata informatii despre server!
  19.!kill <membru> - omori pe cineva printr-un mention!
- 20.!rape <membru> - violezi pe cineva prin mention!
+ 20.!rape <membru> - Comanda NSFW!
  21.!slot - joci la pacanele!
  22.heil - comanda pentru naizisti.
  23.ce faci fa? - o intrebi pe hina ce face.

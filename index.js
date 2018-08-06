@@ -32,7 +32,7 @@ bot.on("ready", async () => {
 });
 
 bot.on('message', msg => {
-    if (msg.content === "hina" || msg.content === "hinami" || msg.content === "hina?" || msg.content === "hinami?" || msg.content === "Hina" || msg.content === "Hinami") {
+    if (msg.content === "hina" || msg.content === "hinami" || msg.content === "hina?" || msg.content === "hinami?") {
     let reply = ['da?', 'Normal nu ti-as raspunde... dar sunt programata s-o fac..', 'ai inebunit.. incepi sa vorbesti cu roboti :|', 'da, ce este?']
     let random = Math.floor((Math.random() * reply.length));
     msg.channel.send(reply[random])

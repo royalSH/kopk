@@ -26,7 +26,7 @@ exports.run = async (bot, message, args) => {
  16.!invitelink - iti arata un invitelink pentru a invita persoane pe server!
  17.!oppai - o comanda NSWF 
  18.!serverinfo - iti arata informatii despre server!
- 19.!kill <membru> - BETA!
+ 19.!kill <membru> - omori pe cineva printr-un mention!
  20.!rape <membru> - violezi pe cineva prin mention!
  21.!slot - joci la pacanele!
  22.heil - comanda pentru naizisti.

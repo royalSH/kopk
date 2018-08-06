@@ -3,7 +3,8 @@ const Discord = require("discord.js");
 exports.run = async (bot, message, args) => {
 
   let fondator = ['Dix']
-  let cofondator = ['sιოσηα']
+  let cofondator = [`sιოσηα
+TheLopata`]
   let betatester = ['Koral']
   let premium = [`TheLopata
   CodyStorm123

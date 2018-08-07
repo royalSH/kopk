@@ -32,6 +32,7 @@ exports.run = async (bot, message, args) => {
  22.heil - comanda pentru naizisti.
  23.ce faci fa? - o intrebi pe hina ce face.
  24.#donate - comanda pentru donatii!
+ 25.!penis <membru> - Comanda NSFW!
   `)
   .addField("Developer", interviu)
   .setFooter("Hinami | Commands | paypal.me/hinamisrl", bot.user.displayAvatarURL)

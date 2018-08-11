@@ -15,7 +15,7 @@ module.exports.run = async (bot, message, args) => {
     .setFooter(`Hinami | Report System  v2.1 |`, bot.user.displayAvatarURL)
     .addField("Reason", rreason);
 
-    let reportschannel = message.guild.channels.find(`name`, "📂reports");
+    let reportschannel = message.guild.channels.find(`name`, "🏰-staff");
     if(!reportschannel) return message.channel.send("Couldn't find reports channel.");
 
 

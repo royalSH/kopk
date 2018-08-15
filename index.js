@@ -37,6 +37,9 @@ bot.on('message', msg => {
     let random = Math.floor((Math.random() * reply.length));
     msg.channel.send(reply[random])
   }
+  if (msg.content === "dumnezeu" || msg.content === "Dumnezeu" || msg.content === "DUMNEZEU") {
+  msg.channel.send("Este ocupat nepasandu-i de Africa, probabil te poate ajuta Luci.")
+  }
   if (msg.content === 'tigani') {
     msg.channel.send('Pe rug cu iei ca in Game Of Thrones!!!!')
   }

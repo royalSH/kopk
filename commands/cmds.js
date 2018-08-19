@@ -34,6 +34,7 @@ exports.run = async (bot, message, args) => {
  24.#donate - comanda pentru donatii!
  25.!penis <membru> - Comanda NSFW!
  26.!rip - arati ca esti mort!
+ 27.!quiz - primesti intrebari random din anime-uri!
   `)
   .addField("Developer", interviu)
   .setFooter("Hinami | Commands | paypal.me/hinamisrl", bot.user.displayAvatarURL)

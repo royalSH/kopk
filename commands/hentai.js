@@ -17,7 +17,8 @@ module.exports.run = async(bot, message, args) => {
     "http://78.media.tumblr.com/116aacf36b211b12cf5856b9e21b96cb/tumblr_mi7zb9hHZ41rm0ncgo1_1280.gif",
     "http://ahegao.online/wp-content/uploads/2016/07/tumblr_oa8deoSDmz1vzttmyo1_500.gif",
     "https://images-ext-1.discordapp.net/external/K5YB_czOgV6TQ3_G5QEKqYlkeR9vMjChqRL3KuyBR-Q/http/67.media.tumblr.com/45e7984ad999a1158377bec7c7236aeb/tumblr_nm1nl5TY1w1tv5c1wo3_1280.gif",
-    "https://images-ext-1.discordapp.net/external/uT8cYbeleRnzX5LhHDdcIph8sptmnp5y0djKpJ2_UOw/https/static.hentai-image.com/upload/20130305/3/2589/38.gif"
+    "https://images-ext-1.discordapp.net/external/uT8cYbeleRnzX5LhHDdcIph8sptmnp5y0djKpJ2_UOw/https/static.hentai-image.com/upload/20130305/3/2589/38.gif",
+    "https://images-ext-1.discordapp.net/external/eOwt8ENC6xgPTF46IjaHP5AJYv_vzek0ACudpaqd2nk/https/static.hentai-gifs.com/upload/20171010/36/71786/detail.gif",
   ]
   let r = Math.floor((Math.random() * hi.length));
     if (!message.channel.nsfw) return message.channel.send("**:exclamation: | Comanda poate fi executata doar intr-un channel NSFW**");

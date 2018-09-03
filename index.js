@@ -46,6 +46,9 @@ bot.on('message', msg => {
   if (msg.content === 'pai') {
     msg.channel.send('niciun pai!! :rage:');
   }
+  if (msg.content === 'a') {
+    msg.channel.send('b');
+  }
     if(msg.content.startsWith("<@337854135976198144>")) {
     msg.channel.send('Monstrul Dix isi va face aparitia imediat')
     let dix1 = new Discord.RichEmbed()

@@ -33,7 +33,7 @@ bot.on("ready", async () => {
 
 bot.on('message', msg => {
     if (msg.content === "hina" || msg.content === "hinami" || msg.content === "hina?" || msg.content === "hinami?") {
-    let reply = ['da?', 'Normal nu ti-as raspunde... dar sunt programata s-o fac..', 'ai inebunit.. incepi sa vorbesti cu roboti :|', 'da, ce este?']
+    let reply = ['da?', 'eu nu raspund la orcine :]]', 'da, ce este?']
     let random = Math.floor((Math.random() * reply.length));
     msg.channel.send(reply[random])
   }
@@ -69,7 +69,7 @@ bot.on('message', msg => {
     msg.channel.send(sim1)
   }
     if(msg.content.startsWith("ce faci fa?")) {
-    let reply = ['ce te intereseaza pe tine?', 'Nu vreau sa-ti raspund, pacat ca sunt programata sa o fac...', 'ai inebunit.. incepi sa vorbesti cu robotii dupa discord..', 'Bine, tu?', 'Bine ca sa nu fac rau..', 'Vorbesti ca un taran plouat, report!...', 'ma joc samp pe jade, tu?']
+    let reply = ['Stau in pat la camin, tu ce faci?', 'ai inebunit.. incepi sa vorbesti cu roboti :|', 'Bine, tu?', 'tu bine, eu?', 'fa ii ma-ta, nu eu.', 'ma joc samp pe jade, tu?']
     let random = Math.floor((Math.random() * reply.length));
     msg.channel.send(reply[random])
   }

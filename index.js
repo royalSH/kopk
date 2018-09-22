@@ -40,6 +40,9 @@ bot.on('message', msg => {
   if (msg.content === "dumnezeu" || msg.content === "Dumnezeu" || msg.content === "DUMNEZEU") {
   msg.channel.send("Este ocupat nepasandu-i de Africa, probabil te poate ajuta Luci..")
   }
+  if (msg.content === 'camin') {
+    msg.channel.send("ai dat de dracu acolo :]]")
+  }
   if (msg.content === 'tigani') {
     msg.channel.send('Pe rug cu iei ca in Game Of Thrones!!!!')
   }

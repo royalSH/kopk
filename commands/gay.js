@@ -10,7 +10,7 @@ module.exports.run = async (bot, message, args, prefix) => {
 
     let gayembed = new Discord.RichEmbed()
         .setColor("#f442d4")
-        .setTitle(`:gay_pride_flag: **${message.mentions.members.first().user.username} este ${gay}% gay!** :gay_pride_flag:`);
+        .setTitle(`🌈 **${message.mentions.members.first().user.username} este ${gay}% gay!** 🌈`);
     return message.channel.send(gayembed);
 };
 
